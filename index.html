@@ -1,26 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <TITLE>Sắc Ly</TITLE>
-    <meta charset="utf-8">
-    <link href="css/main.css" rel="stylesheet">
-  </head>
 
-  <body>
-    
-    <div class="title">
-      <h1 class="STARDUST1">SacLy</h1>
-      <h3 class="STARDUST2">L O V E <strong>❤</strong> Y O U</h3>
-      <img class="img" src="SacLy.jpg"/>
-      <canvas id="pinkboard"></canvas>
-    </div>
+<head>
+  <TITLE>Sắc Ly</TITLE>
+  <meta charset="utf-8">
+  <link href="css/main.css" rel="stylesheet">
+</head>
 
-    <audio autoplay>
-      <source src="Music.mp3" type="audio/mpeg"/>
-    </audio>
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/particle.js"></script>
-  </body>
+<body>
+
+  <div class="title">
+    <h1 class="STARDUST1">SacLy</h1>
+    <h3 class="STARDUST2">L O V E <strong>❤</strong> Y O U</h3>
+    <img class="img" src="SacLy.jpg" />
+    <audio id="audio" src="Music.mp3" loop></audio>
+    <canvas id="pinkboard"></canvas>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/particle.js"></script>
+  <script>
+    const audio = document.getElementById('audio');
+    window.onclick = function(){
+      audio.play();
+    }
+  </script>
+
+</body>
+
 </html>
