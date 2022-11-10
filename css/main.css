@@ -1,0 +1,92 @@
+
+.title {
+  z-index: 9999 !important;
+  position: absolute;
+  left: 50%;
+  top: 42%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Montserrat";
+  text-align: center;
+  width: 100%;
+}
+
+.title h1 {
+  z-index: 99;
+  position: relative;
+  color: #fff;
+  font-weight: 100;
+  font-size: 70px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  text-shadow: 0 0 10px #fcf826, 0 0 20px #fcf826, 0 0 30px #fcf826, 0 0 40px #f1ef4d, 0 0 70px #f1ef4d, 0 0 80px #f1ef4d, 0 0 100px #f1ef4d, 0 0 150px #f1ef4d;
+}
+
+
+.title h3 {
+  z-index: 99;
+  font-weight: 200;
+  font-size: 26px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+  color: #ffffff;
+  letter-spacing: 2px;
+}
+
+/* 爱心css */
+canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#pinkboard {
+  position: relative;
+  top: 0%;
+  left: 0%;
+  height: 450px;
+}
+
+.STARDUST1 {
+  position: relative !important;
+  top: -40px;
+}
+
+.STARDUST2 {
+  position: relative !important;
+  top: -20px;
+}
+
+html, body {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-filter: contrast(120%);
+  filter: contrast(120%);
+  background-image: radial-gradient(1600px at 70% 120%, rgba(33, 39, 80, 1) 10%, #020409 100%) !important;        /* background-color: black; */
+}
+
+img {
+  position: absolute;
+  left: 50%;
+  top: 63%;
+  transform: translate(-50%, -50%);
+  width: 420px;
+  height: 420px;
+
+  aspect-ratio: 0;
+  object-fit: cover;
+  --_m: radial-gradient(#000 69%, #0000 70%) 84.5% fill/100%;
+  -webkit-mask-box-image: var(--_m);
+  mask-border: var(--_m);
+  clip-path: polygon(-41% 0, 50% 91%, 141% 0);
+}
