@@ -3,7 +3,7 @@
   z-index: 9999 !important;
   position: absolute;
   left: 50%;
-  top: 42%;
+  top: 47%;
   transform: translateX(-50%) translateY(-50%);
   font-family: "Montserrat";
   text-align: center;
@@ -50,12 +50,12 @@ canvas {
 
 .STARDUST1 {
   position: relative !important;
-  top: -40px;
+  top: -20px;
 }
 
 .STARDUST2 {
   position: relative !important;
-  top: -20px;
+  top: -10px;
 }
 
 html, body {
